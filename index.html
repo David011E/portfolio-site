@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Oliver | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <h1>David Oliver</h1>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-stack">
+                <img src="assets/images/portpic.png" alt="David Oliver" class="hero-photo" />
+                <h1 class="hero-name">DAVID OLIVER</h1>
+            </div>
+            <div class="hero-bottom">
+                <p class="hero-role">Web Developer / Designer</p>
+                <a href="#contact" class="hero-button">Get in touch →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <h2>Latest Work</h2>
+            <div class="work-grid">
+                <div class="work-item">
+                    <img src="assets/images/project1.png" alt="Project 1" />
+                    <h3>Expenses Calculator Business Program</h3>
+                    <p>This is a Businesses Expenses Calculator program for all the people in contracts to use to see
+                        and calculate how much they have made this month.</p>
+                    <hr>
+                    <a href="https://github.com/David011E/expenses_calculator">Check out on github</a>
+                </div>
+                <div class="work-item">
+                    <img src="assets/images/project2.png" alt="Project 2" />
+                    <h3>All About History</h3>
+                    <p>All About History is a comprehensive platform dedicated to fostering a deeper understanding of
+                        our rich past through the exploration of significant Historical Events.</p>
+                    <hr>
+                    <a href="https://github.com/David011E/history_project">Check out on github</a>
+                    <hr>
+                    <a href="https://david011e.github.io/history_project/">Live link</a>
+                </div>
+                <!-- Add more work-item blocks if needed -->
+                <div class="work-item">
+                    <img src="assets/images/project3.png" alt="Project 3" />
+                    <h3>To-Do List</h3>
+                    <p>Welcome to our To-Do List Manager! This application is designed to help you stay organized and
+                        boost your productivity.</p>
+                    <hr>
+                    <a href="https://github.com/David011E/To-Do-List">Check out on github</a>
+                    <hr>
+                    <a href="https://david011e.github.io/To-Do-List/">Live link</a>
+                </div>
+                <div class="work-item">
+                    <img src="assets/images/project4.png" alt="Project 3" />
+                    <h3>To-Do List</h3>
+                    <p>PT JACKATTACK is a fictional B2C e-commerce store that is designed and implemented with Python
+                        and Django, HTML, CSS and some Javascript. It specialises in the fitness industry by selling
+                        subscriptions. However it has to be noted that this site is for educational use only.</p>
+                    <hr>
+                    <a href="https://github.com/David011E/pt-pp-p-5">Check out on github</a>
+                </div>
+                <div class="work-item">
+                    <img src="assets/images/project5.png" alt="Project 3" />
+                    <h3>To-Do List</h3>
+                    <p>This is my Online booking system for user to interact by leaving reviews or make a booking for
+                        themselves.
+
+                        It is a fullstack booking system site that allows users to read reviews make a booking , create
+                        an account and review about their experiences.</p>
+                    <hr>
+                    <a href="https://github.com/David011E/hbcs">Check out on github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="work">
+        <h2>My certificates</h2>
+        <div class="container">
+            <div class="work-grid">
+                <div class="work-item">
+                    <img src="assets/images/cert1.png" alt="cert 1" />
+                    <h3>The Complete Guide To Kubernetes</h3>
+                    <hr>
+                    <p>The Complete Guide To Kubernetes is a course I learnd via future skills.</p>
+                </div>
+                <div class="work-item">
+                    <img src="assets/images/cert2.png" alt="cert 2" />
+                    <h3>Diploma in Full Stack Software Development</h3>
+                    <hr>
+                    <p>The Diploma in Full Stack Software Development (E-commerce Applications) has been credit-rated by
+                        the University of the West of Scotland at level 8 on the Scottish Credit & Qualifications
+                        Framework with 60 SCQF credit points..</p>
+                    <hr>
+                    <a href="https://www.credential.net/4f1ba1a9-74a6-4ee6-ad68-7623a1627b10">Check it out</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Email me at <a href="mailto:davidoliver011e@gmail.com">davidoliver011e@gmail.com</a></p>
+            <p><a href="cv.pdf" download>Download my CV</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 David Oliver. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById("menu-toggle");
+        const nav = document.getElementById("nav-menu");
+
+        toggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+    </script>
+
+</body>
+
+</html>
